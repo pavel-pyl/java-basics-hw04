@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class Employee implements Payable{
+public class Employee implements Payable {
 
   private String employeeId;
   private String name;
@@ -37,7 +37,7 @@ public class Employee implements Payable{
 
   @Override
   public String toString() {
-    return String.format(new Locale("en","US"), "Employee [name = %s; employeeId = %s; av.salary = %.2f]", getName(), getEmployeeId(), getAverageMonthlySalary());
+    return String.format(new Locale("en", "US"), "Employee [name = %s; employeeId = %s; av.salary = %.2f]", getName(), getEmployeeId(), getAverageMonthlySalary());
   }
 
   @Override

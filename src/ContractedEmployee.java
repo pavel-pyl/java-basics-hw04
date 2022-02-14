@@ -1,4 +1,4 @@
-public class ContractedEmployee extends Employee{
+public class ContractedEmployee extends Employee {
 
   private String federalTaxId;
   private double hourlyRate;
